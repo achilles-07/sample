@@ -16,18 +16,39 @@
 
 	a:hover, a:active {
 	  background-color: red;
-}
+	}
+		body {
+	  background-color: black;
+	  font-family: cursive;
+	}
+
+	.glow {
+	  font-size: 80px;
+	  color: #fff;
+	  text-align: center;
+	  animation: glow 1s ease-in-out infinite alternate;
+	}
+
+	@-webkit-keyframes glow {
+	  from {
+	    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	  }
+	  
+	  to {
+	    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	  }
+	}
 </style>
 </head>
 
 <body bgcolor="black">
   <center>
     
-    <h2 style="font-family:eb garamond; font-size: 60px; color: white;">Technology Literary Society<h3>
+    <h2 style="font-family:eb garamond; font-size: 60px; color: white;" class="glow">Technology Literary Society<h3>
       <center>
-        <img src="tls logo.jpg" alt="TLS LOGO" style="width:150px;height:150px">
+        <img src="tls logo.jpg" alt="TLS LOGO" style="width:150px;height:150px" class="glow">
       </center>
-    <h1 style="font-family: 'Brush Script MT', cursive; font-size: 100px;color: white;">Alankar 2021</h1>
+    <h1 style="font-family: 'Brush Script MT', cursive; font-size: 100px;color: white;" class="glow">Alankar 2021</h1>
     <h4 style="font-family:times new roman;color: white;">Alankar for this year can be read as a <a href="flipbook.html" vlink="yellow">Flipbook</a> on this page or in <a href="https://drive.google.com/drive/folders/1YRfSbhqf75BmMJf5v-_nHcnD8gS2e9RN?usp=sharing">PDF</a></h4>
     <h6 style="font-family:times new roman;color: white; font-size: 15px;">It is advised to use the FlipBook reader as the PDF files are heavy in size.</h6>
     <hr>
